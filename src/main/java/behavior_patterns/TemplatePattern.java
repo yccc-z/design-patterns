@@ -1,4 +1,4 @@
-package behavioralpatterns;
+package behavior_patterns;
 
 public class TemplatePattern {
     public static void main(String[] args) {

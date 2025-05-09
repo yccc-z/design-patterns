@@ -2,7 +2,11 @@ package create_patterns;
 
 import lombok.Data;
 
-public class BuilderParente {
+/**
+ * 建造者模式
+ * 类：具体产品，抽象建造者，具体建造者，指挥者（可有可无）
+ */
+public class BuilderPattern {
 
     public static void main(String[] args) {
         Product product = new BuilderImpl().builderName("小明").builderContent("小明6岁了").build();
